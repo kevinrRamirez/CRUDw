@@ -11,6 +11,13 @@
     <title>Crud</title>
   </head>
   <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="{{route('inicio')}}">
+          <img src="https://getbootstrap.com//docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+        </a>
+      </div>
+    </nav>
     
     <div class="container pt-5">
         @yield('content')
